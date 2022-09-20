@@ -151,7 +151,7 @@ ENV IN_DIR=${BASE}/in \
     ORCHESTRATION_TYPE="" \
 
 #-- Base DN for user data
-    USER_BASE_DN=dc=example,dc=com \
+    USER_BASE_DN=dc=rddops,dc=com \
 #-- Variable with a literal value of '$', to avoid unwanted variable substitution
     DOLLAR='$' \
 #-- PD (PingDirectory) public hostname that may be used in redirects
